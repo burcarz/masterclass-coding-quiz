@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Masterclass Coding Quiz</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>Masterclass Coding Quiz</header>
+        <div class="card" id="card">
+            <div class="head">
+                <textarea class="question" id="question" placeholder="question is here" aria-label="generated question" readonly></textarea>
+                <textarea class="timer" id="timer" placerholder="60"  aria-label="gen-timer"></textarea>
+            </div>
+            <section>
+            <div class="answers">
+                <textarea class="ans" id="answer-1" placeholder="oh boy" aria-label="generated answer" readonly></textarea>
+                <input name="checkbox" type="checkbox" id="check-1" unchecked>
+            </div>
+            <div class="answers">
+                <textarea class="ans" id="answer-2" placeholder="hello" aria-label="generated answer" readonly></textarea>
+                <input name="checkbox" type="checkbox" id="check-2" unchecked>
+            </div>
+            <div class="answers">
+                <textarea class="ans" id="answer-3" placeholder="big money" aria-label="generated answer" readonly></textarea>
+                <input name="checkbox" type="checkbox" id="check-3" unchecked>
+            </div>
+            <div class="answers">
+                <textarea class="ans" id="answer-4" placeholder="sorry" aria-label="generated answer" readonly></textarea>
+                <input name="checkbox" type="checkbox" id="check-4" unchecked>
+            </div>
+            </section>
+        </div>
+    </div>
+    <script src="./assets/arrays.js"></script>
+    <script src="./assets/scripts.js"></script>
+</body>
+</html>
